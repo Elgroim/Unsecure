@@ -5,6 +5,7 @@ namespace UnsecureBundle\Controller;
 use Symfony\Component\HttpKernel\Exception\AccessDeniedHttpException;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
+//Commentaire
 class AdminController extends Controller
 {
     public function indexAction()
