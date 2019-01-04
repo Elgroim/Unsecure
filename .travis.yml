@@ -12,3 +12,5 @@ notifications:
   slack:
     rooms:
       - ipssi-d19-1:3U0tNTwfovSqXR04sBm4G5HQ#travis
+    on_success: change
+    on_failure: always
