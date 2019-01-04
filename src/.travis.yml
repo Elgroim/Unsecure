@@ -9,3 +9,8 @@ services:
 
 #Script
 script: docker run -v $PWD:/app p/php-cs-fixer fix . --dry-run
+
+notifications:
+  slack:
+    rooms:
+      - ipssi-d19-1:3U0tNTwfovSqXR04sBm4G5HQ#travis
