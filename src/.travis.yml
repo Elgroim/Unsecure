@@ -1,0 +1,11 @@
+#Langage
+language: php
+php:
+  - 7.0
+
+#Service utilisé : Docker
+services:
+  - docker
+
+#Script
+script: docker run -v $PWD:/app p/php-cs-fixer fix . --dry-run
